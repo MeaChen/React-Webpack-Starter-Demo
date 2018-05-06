@@ -22,7 +22,7 @@ Then there are two ways to install dependencies:
 
 2. Use `npm install` to install dependencies indicated in `.package.json`.
 
-You can define instructions by modifying item "scripts" in `.package.json`. Although npm run has [built-in command](https://docs.npmjs.com/cli/run-script), it will take predence over the built-in if specified.
+You can define instructions by modifying item "scripts" in `.package.json`. Although npm run has [built-in command](https://docs.npmjs.com/cli/run-script), it will take precedence over the built-in if specified.
 
 For example,
 
@@ -30,7 +30,7 @@ For example,
 
 will run `webpack-dev-server --hot --progress --colors` instead of built-in `node server.js`.
 
-[**Webpack**](https://webpack.js.org/concepts/) is a module bundle. Its configurations are indicated in file `.webpack.config.js`. Below are important concepts:
+[**Webpack**](https://webpack.js.org/concepts/) is a module bundle. Its configurations are defined in file `.webpack.config.js`. Below are important concepts:
 
 * Entry
 	* An entry point indicates which module webpack should use to begin building out its internal dependency graph, webpack will figure out which other modules and libraries that entry point depends on (directly and indirectly).

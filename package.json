@@ -26,7 +26,6 @@
     "webpack-dev-server": "^3.1.3"
   },
   "dependencies": {
-    "amazeui-touch": "^2.0.0-alpha.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
